@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Virtual environments
+env/
+.venv/
+ENV/
+.venv/
+
+# Logs
+*.log
+
+# Jupyter notebook cache (if used later)
+.ipynb_checkpoints/
+
+# Optional: CSV files (if you don’t want to upload them)
+# *.csv
+
