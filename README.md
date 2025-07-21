@@ -1,23 +1,30 @@
-# AnomalyDetector-AI
+ 🔎 AnomalyDetector
 
-This is a simple machine learning project that uses Isolation Forest to detect anomalies in numerical datasets.
+AnomalyDetector is a lightweight Python-based tool for identifying anomalies in numerical datasets using machine learning.
 
-## How it works
+It takes a CSV file as input, analyzes the data using the Isolation Forest algorithm, and outputs a new CSV file with anomaly labels.
 
-- Loads a CSV file with numerical data.
-- Applies the Isolation Forest algorithm to detect outliers.
-- Saves the results in a new CSV file with an added `anomaly` column.
+---
 
-## Files
+ 🚀 Features
 
-- `anomaly_detector.py`: Main script that performs anomaly detection.
-- `sample_input.csv`: Example input dataset.
-- `sample_output.csv`: Output with anomaly labels.
-- `requirements.txt`: List of required Python packages.
+- 📊 Accepts any CSV with numerical columns
+- 🧠 Uses Isolation Forest for unsupervised anomaly detection
+- ✅ Outputs labeled results with anomaly flags
+- 🔁 Fast, simple, and efficient for small to medium datasets
 
-## Installation
+
+
+ 🛠️ Usage
 
 ```bash
-pip install -r requirements.txt
+python anomaly_detector.py input.csv output.csv
+
+ 📁 Example Output
+
+| feature_1 | feature_2 | ... | anomaly |
+|-----------|-----------|-----|---------|
+| 10.2      | 93.4      | ... | 0       |
+| 888.1     | 0.2       | ... | 1       |
 
 
